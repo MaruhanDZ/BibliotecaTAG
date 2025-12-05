@@ -46,7 +46,7 @@ STRUCT
 	// -----------------------------
 	// BYTES 2 e 3 - Principais Comandos
 	// -----------------------------
-	z_reserve : ARRAY[0..1] OF BYTE := [2(16#FF)]; 	  // Bytes de reserva para os alarmes do motor 1, 2, 3
+	z_reserve : ARRAY[0..1] OF BYTE := [2(16#00)]; 	  // Bytes de reserva
 	
 	// tamanho total: 4 bytes (2 words)
 
