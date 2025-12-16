@@ -14,7 +14,6 @@
     <TypeSimple name="T_BIT_X_5" size="1" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="5" />
     <TypeSimple name="T_BIT_X_6" size="1" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="6" />
     <TypeSimple name="T_BIT_X_7" size="1" swapsize="0" typeclass="Bit" iecname="BIT" bitoffset="7" />
-    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
     <TypeSimple name="T_BYTE" size="1" swapsize="1" typeclass="Byte" iecname="BYTE" />
     <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
     <TypeSimple name="T_REAL" size="4" swapsize="4" typeclass="Real" iecname="REAL" />
@@ -89,8 +88,8 @@
       <UserDefElement iecname="autoFltResetTime" type="T_UINT" byteoffset="12" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="autoAlmResetTime" type="T_UINT" byteoffset="14" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="maxAutoFltResetTry" type="T_UINT" byteoffset="16" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="analogMinValue" type="T_UINT" byteoffset="18" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="analogMaxValue" type="T_UINT" byteoffset="20" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="analogMinValue" type="T_INT" byteoffset="18" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="analogMaxValue" type="T_INT" byteoffset="20" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="startStopFltTime" type="T_UINT" byteoffset="22" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="z_reserve2" type="T_ARRAY__0__3__OF_BYTE" byteoffset="24" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="analogInputMinFrequency" type="T_REAL" byteoffset="28" vartype="VAR" access="ReadWrite" />
@@ -220,8 +219,7 @@
   <NodeList>
     <Node name="Application">
       <Node name="GVL_MOTORES">
-        <Node name="motor" type="T_UDT_MOTOR" access="ReadWrite" directaddress="%MW100" />
-        <Node name="sysClock1s" type="T_BOOL" access="ReadWrite" />
+        <Node name="B1" type="T_UDT_MOTOR" access="ReadWrite" directaddress="%MW100" />
       </Node>
     </Node>
   </NodeList>
