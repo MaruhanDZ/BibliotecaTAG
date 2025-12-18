@@ -53,9 +53,9 @@
       <UserDefElement iecname="alm" type="T_BIT_X_1" byteoffset="9" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="flt" type="T_BIT_X_2" byteoffset="10" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="selected" type="T_BIT_X_3" byteoffset="11" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="principal" type="T_BIT_X_4" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="main" type="T_BIT_X_4" byteoffset="12" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="complementar" type="T_BIT_X_5" byteoffset="13" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="reserva" type="T_BIT_X_6" byteoffset="14" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="backup" type="T_BIT_X_6" byteoffset="14" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="referencyPID" type="T_BIT_X_7" byteoffset="15" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="referencyFixed" type="T_BIT_X_0" byteoffset="16" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="z_reserve" type="T_BYTE" byteoffset="17" vartype="VAR" access="ReadWrite" />
