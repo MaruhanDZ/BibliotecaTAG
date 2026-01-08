@@ -1,0 +1,151 @@
+Id;Default
+539;  I/O-Bus
+535;  PWR/RUN
+538;  S- ERR
+536;  STA1 ETH
+537;  STA2 ETH
+172; 3.0 DI8
+173; 3.1 DI9
+174; 3.2 DI10
+175; 3.3 DI11
+176; 3.4 DI12
+177; 3.5 DI13
+178; 3.6 DI14
+179; 3.7 DI15
+180; 4.0 DO8
+181; 4.1 DO9
+182; 4.2 DO10
+183; 4.3 DO11
+531; 4.4 DO12
+532; 4.5 DO13
+533; 4.6 DO14
+534; 4.7 DO15
+1002; Ack
+791; Busy
+1006; CfgErr
+269; CfgError
+805; CiModDiag
+1012; ClusterErr
+1014; ComErr
+626; ConfigEth
+624; ConfigIP
+630; Data0
+634; Data1
+1000; Data10
+638; Data2
+642; Data3
+646; Data4
+980; Data5
+984; Data6
+988; Data7
+992; Data8
+996; Data9
+845; DevState
+822; dwCiP
+789; Enable
+1004; Err
+240; Error
+542; I0: %s
+543; I1: %s
+544; I2: %s
+545; I3: %s
+1010; IoBusErr
+628; Para0
+632; Para1
+998; Para10
+636; Para2
+640; Para3
+644; Para4
+648; Para5
+982; Para6
+986; Para7
+990; Para8
+994; Para9
+857; ParaState
+546; Q0: %s
+547; Q1: %s
+1008; Run
+680; RuntimeErr
+847; RuntimeError
+622;%s
+423;%s      
+460;(*10: IO module 3 configuration address *)
+643;(*10: IO module 3 IO Structure  address*)
+550;(*11: IO module 3 IO Structure  address*)
+645;(*11: IO module 4 configuration address*)
+99;(*12: IO module 4 configuration address*)
+647;(*12: IO module 4 IO Structure  address*)
+1031;(*13: IO module 4 IO Structure  address*)
+649;(*13: IO module 5 configuration address*)
+97;(*14: IO module 5 configuration address*)
+981;(*14: IO module 5 IO Structure  address*)
+949;(*15: IO module 5 IO Structure  address*)
+983;(*15: IO module 6 configuration address*)
+659;(*16: IO module 6 configuration address*)
+985;(*16: IO module 6 IO Structure  address*)
+229;(*17: IO module 6 IO Structure  address*)
+987;(*17: IO module 7 configuration address*)
+726;(*18: IO module 7 configuration address*)
+989;(*18: IO module 7 IO Structure  address*)
+914;(*19: IO module 7 IO Structure  address*)
+991;(*19: IO module 8 configuration address*)
+816;(*1: A  rising edge (Enable = TRUE) starts the operation, the output Busy goes to TRUE. All other inputs are read and considered continuously. A falling edge (Enable = FALSE) aborts the operation. During Aborting the Busy is still TRUE. Afterward all outputs are reset. *)
+798;(*1: A rising edge (Enable = TRUE) starts the operation*)
+1005;(*1: If TRUE- Error in the Bus module*)
+773;(*1: If TRUE- Operation is running*)
+625;(*1: IP Address of the IO Module*)
+834;(*1: Operation is running (WHILE output Error is FALSE)*)
+829;(*2 : POINTER TO CI Instance*)
+819;(*20: IO module 8 configuration address*)
+993;(*20: IO module 8 IO Structure  address*)
+241;(*21: IO module 8 IO Structure  address*)
+995;(*21: IO module 9 configuration address*)
+612;(*22: IO module 9 configuration address*)
+997;(*22: IO module 9 IO Structure  address*)
+999;(*23: IO module 10 configuration address*)
+350;(*23: IO module 9 IO Structure  address*)
+208;(*24: IO module 10 configuration address*)
+1001;(*24: IO module 10 IO Structure  address*)
+1003;(*25: Acknowledge*)
+1287;(*25: IO module 10 IO Structure  address*)
+463;(*26: Acknowledge*)
+627;(*2: Ethernet Slot used for communication on the PLC*)
+1007;(*2: If TRUE - Communication lost to the CI52x*)
+238;(*2: If TRUE- Error in the Bus module*)
+733;(*2: IP Address of the IO Module*)
+839;(*2: Operation is stopped with error (while output Busy is FALSE). This output is TRUE for at least one cycle or until Enable is set to FALSE. The output ErrorID gives more details about the error. *)
+851;(*3:  CI Device Status*)
+629;(*3: Busmodule Configuration Address*)
+504;(*3: Ethernet Slot used for communication on the PLC*)
+1009;(*3: If TRUE - CI52x module is running*)
+862;(*4:  CI Parameter Status*)
+631;(*4: Bus module IO Structure address*)
+650;(*4: Busmodule Configuration Address*)
+1015;(*4: configuration error*)
+903;(*4: Each bit of the byte represents different configuration errors: Bit0 - reserved, Bit1 - ConfigEth invalid, Bit2 - ConfigIP invalid*)
+1011;(*4: IF TRUE - IO module in the cluster is having error*)
+88;(*5: Bus module IO Structure address*)
+554;(*5: Each bit of the word represents different Runtime errors: Bit0 - communication error, Bit1 - IO bus error, Bit2 - cluster error, *)
+1259;(*5: Each bit of the word represents different Runtime errors: Bit0 - communication error, Bit1 - IO bus error, Bit2 - cluster error, Bit3 - HW configuration error,  Mismatch between configuration and actual hardware detected*)
+1013;(*5: If TRUE - Sum Error in the cluster*)
+633;(*5: IO module 1 configuration address*)
+1016;(*5: Runtime Error*)
+1017;(*6: IO module 1 configuration address*)
+635;(*6: IO module 1 IO Structure  address*)
+828;(*7: IO module 1 IO Structure  address*)
+637;(*7: IO module 2 configuration address*)
+957;(*8: IO module 2 configuration address*)
+639;(*8: IO module 2 IO Structure  address*)
+1133;(*9: IO module 2 IO Structure  address*)
+641;(*9: IO module 3 configuration address *)
+424;ABB
+540;ACK
+365;Busy
+153;CfgError
+621;CiModCI52x
+549;ERROR
+541;INIT
+623;Instance of CiModCI52x Function Block
+793;Instance of CiModDiag Function Block
+548;Modbus$R$NAdresse
+887;RuntimeError

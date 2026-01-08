@@ -1,0 +1,29 @@
+Id;Default
+49;               User name
+50;          User name
+362;$$CANCEL$$
+179;$$LOGIN$$
+816;$$PASSWORD_PH$$Password$$
+604;$$SYS_ERROR$$
+133;$$USERNAME_PH$$Username$$
+6;%s
+2;*****
+40;Acknowledge password:
+35;Add or insert user
+13;Cancel
+560;Change passw at first login
+46;Change password
+24;Change password at first login
+42;Deactivated:
+34;Delete user
+37;Full name
+39;Full name:
+26;Login
+18;LOGIN
+45;New password:
+14;Ok
+44;Old password:
+5;Password:
+47;User group selection:
+43;User management
+38;User name:

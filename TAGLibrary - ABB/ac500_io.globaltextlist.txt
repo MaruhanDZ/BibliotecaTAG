@@ -1,0 +1,12 @@
+Id;Default
+6;%s
+2;%s          
+4;Actual value
+7;CF
+10;En Out
+8;Enable
+3;End value 
+0;I/O-Bus counter
+5;Mode
+9;Set
+1;Start value 

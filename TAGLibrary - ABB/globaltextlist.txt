@@ -1,0 +1,51 @@
+Id;Default
+593;%.4f
+585;%.d
+38;%d
+LoginVisuErr1;Authentication failed, try again
+677;B0
+49;B1
+55;B2
+399;B3
+728;B4
+365;B5
+LoginVisuErr2;Change password at first login is not supported
+307;Complementar
+571;Configurações do Revezamento
+126;Diferença max. Lógica 2
+604;Diferença para troca
+140;ElapsedTime
+26;ElapsedTime (Logica 0)
+LoginVisuErr3;Error during authentication
+361;Falhar Motor
+894;Horímetros
+496;Intertravar
+712;Intertravar Motor
+267;Intertravar revezamento
+285;Intertravar Revezamento
+987;Liga Motor Complementar
+394;Ligado
+59;Ligar Motor Principal
+138;Lógica 0 - Troca a cada x Tempo
+150;Lógica 1
+999;Lógica 2 - Desgaste Uniforme
+748;Lógica de Revezamento Elevatória
+650;Lógica Usada
+936;Main Motors
+162;None
+995;N° Motores Complement.
+854;N° Motores Complementares
+400;N° Motores Principais
+5;Principal
+424;PV ShiftTime
+533;PV ShiftTime ( Logica 1)
+449;PV ShiftTime (Logica 1)
+630;Reserva
+943;ShiftTime
+314;SP ShiftTime
+411;SP ShiftTime ( Logica 1)
+482;SP ShiftTime (Logica 1)
+993;SP Tempo (Logica 0)
+878;SP Tempo de Troca
+608;Start Index
+288;Stop Index

@@ -1,0 +1,152 @@
+Id;Default
+2416; Addr
+4343; AddrRead
+7950; AddrWrite
+743; Busy
+2997; Com
+20; Data
+7918; DataRead
+7966; DataWrite
+370; Done
+724; Enable
+745; Error
+747; ErrorID
+2582; Execute
+2395; Fct
+45; JobBusy
+43; JobDone
+2294; LastReadErno
+2924; LastReadWriteErno
+760; LastWriteErno
+2948; LastWriteMaskErno
+35; ModMastErrorAct
+37; ModMastErrorIDLast
+772; ModRtuRead
+4325; ModRtuReadWrite23
+3063; ModRtuToken
+263; ModRtuWrite
+2406; Nb
+4334; NbRead
+7934; NbWrite
+130; Online
+14; Prio
+762; ReadErrCnt
+3690; ReadWriteErrCnt
+3043; ReconnectPause
+2307; ReconnectPauseAct
+898; Selected
+3015; Serv
+765; TimeOut
+940; Value1
+2148; Value10
+946; Value2
+952; Value3
+959; Value4
+965; Value5
+2094; Value6
+2107; Value7
+2121; Value8
+2134; Value9
+39; WarnAct
+41; WarnIDLast
+761; WriteErrCnt
+2936; WriteMaskErrCnt
+722;%s
+15;%x
+2580;(*  2: reserved - not used *)
+3451;(*  3:Modbus function code. 1 OR 2 = read n bits$; 3 OR 4 = read n words. valid range is 1..4 *)
+5570;(*  error count of writemask (FCT-22) errors *)
+2302;(*  last error code of read error *)
+2930;(*  last error code of read/Write (FCT-23) error *)
+10273;(*  last error code of writemask (FCT-22) error*)
+2314;(*  timeout or other modbus server error detected and reconnection pause is active *)
+8037;(* 10: Read Write job active *)
+12122;(* 1: Operation is completed without error (while outputs Busy and Error are FALSE). This output is TRUE for atleast one cycle or $R$Nuntil Execute is set to FALSE. *)
+1907;(* 1: Operation is running (while output Error is FALSE) *)
+7989;(* 2: Operation is running (while outputs Done and Error are FALSE) *)
+1532;(* 2: reserved - not used *)
+7129;(* 3: Modbus function code. 5 = write one bit$; 6 = write one word$; 15 = write n bits$; 16 = write n$R$N words$; 22 = Mask Write $; 23 = Read / Write multiple register  *)
+1527;(* 3: Number of variables to be read. valid range is: 1 .. 125 - see general description, about when the value is stored in the $R$Nfunction block*)
+3971;(* 3: Operation is stopped with error (while outputs Busy and Done are FALSE). This output is TRUE for at least one cycle or until $R$NExecute is set to FALSE. The output ErrorID gives more details about the error. *)
+1931;(* 4: Active error in ModMast. Operation is running with error . This output is TRUE for at least one $R$Ncycle or until Enable is set to FALSE. The output ModMastErrorIDLast gives more details about the last$R$N error.  *)
+4716;(* 4: Address from where to read in modbus server device. valid range is 0..65535 - see general description, about when the value $R$Nis stored in the function block *)
+2560;(* 4: Error codes *)
+2411;(* 4: number of variables to be read. valid range is: 1 .. 2000 *)
+11212;(* 4: Number of variables to be written. valid range is: 1 .. 1968  - see general description, about when the value is stored in the $R$Nfunction block *)
+2566;(* 5: Active error in ModMast. Operation is running with error . This output is TRUE for at least one cycle or until Enable is set to FALSE. The output ModMastErrorIDLast gives more details about the last error. *)
+2421;(* 5: address from where to read in modbus server device. valid range is 0..65535 *)
+3090;(* 5: Address to write to in modbus server device, valid range is 0..65535 - see general description, about when the value is stored$R$N in the function block *)
+38;(* 5: Error code of last active error in ModMast  *)
+11592;(* 5: First operand address of an operand area in the Modbus device, to which data read by the modbus server should be stored - $R$Nsee general description, about when the value is stored in the function block *)
+1630;(* 6: Active warning. Operation is running with warning . This output is TRUE for at least one cycle or $R$Nuntil Enable is set to FALSE. The output WarnIDLast gives more details about the warning.$T  *)
+8005;(* 6: Error code of last active error in ModMast, For error code description, refer to error codes in Modbus RTU library, $"AC500_ModbusRtu.ERROR_ID$". *)
+3335;(* 6: Number of variables to be written. valid range is: 1 .. 121 - see general description, about when the value is stored in the $R$Nfunction block *)
+1971;(* 7: Address to write to in modbus server device, valid range is 0..65535 - see general description, about when the value is stored $R$Nin the function block*)
+8013;(* 7: Operation is running with warning . This output is TRUE for at least one cycle or until Enable is set to FALSE. The output WarnIDLast gives more details about the warning. *)
+5922;(* 7: Warning code of last active warning *)
+2601;(* 8: First operand address of an operand area in the AC500, from which data should be written to the modbus server - see $R$Ngeneral description, about when the value is stored in the function block *)
+44;(* 8: Read job done  *)
+8021;(* 8: Warning code of last active warning *)
+8029;(* 9: Read Write job finished *)
+6495;(* error count of read errors   *)
+1857;(* error count of read/Write (Fct-23) errors *)
+274;(* error count of write errors   *)
+900;(* selected - will be next in the moment the Serv gets the LineToken *)
+3005;(* Selected - will be next in the moment the Serv gets the LineToken *)
+943;(* Value 1 from array of  read parameter values *)
+2155;(* Value 10  from array of  read parameter values *)
+949;(* Value 2 from array of  read parameter values *)
+955;(* Value 3  from array of  read parameter values *)
+962;(* Value 4  from array of  read parameter values *)
+968;(* Value 5  from array of  read parameter values *)
+2101;(* Value 6  from array of  read parameter values *)
+2114;(* Value 7 from array of  read parameter values *)
+2127;(* Value 8  from array of  read parameter values *)
+2141;(* Value 9  from array of  read parameter values *)
+5351;(*10: Modbus job active  *)
+2999;(*10: Write job busy  *)
+2709;(*11: Connection established without error, all read jobs without errors and all Modbus Jobs finished$R$N within time set at input Timeout *)
+545;(*1: A rising edge (Enable = TRUE) starts the operation, the output Busy goes to TRUE. All other inputs are $R$Nread and considered continuously. A falling edge (Enable = FALSE) aborts the operation. During Aborting the $R$NBusy is still TRUE. Afterward all outputs are reset.*)
+6969;(*1: A rising edge (Enable = TRUE) starts the operation, the output Busy goes to TRUE. All other inputs are read and considered $R$Ncontinuously. A falling edge (Enable = FALSE) aborts the operation. During Aborting the Busy is still TRUE. Afterward all outputs are $R$Nreset. *)
+5085;(*1: A rising edge starts the operation, the output Busy goes to TRUE. In the first cycle all other inputs are read and stored, $R$Nafterwards they are ignored. A falling edge does not stop the operation. After Done = TRUE or Error = TRUE and Execute = $R$NFALSE all outputs will be reset *)
+158;(*1: Operation is completed without error (while outputs Busy and Error are FALSE). This output is TRUE for at least one cycle or$R$N until Execute is set to FALSE *)
+858;(*1: Operation is running (while output Error is FALSE) *)
+1009;(*1:A rising edge starts the operation, the output Busy goes to TRUE. In the first cycle all other inputs are read and stored, $R$Nafterwards they are ignored. A falling edge does not stop the operation. After Done = TRUE or Error = TRUE and Execute = FALSE$R$N all outputs will be reset. *)
+120;(*2: modbus communication port - e.g: 1 = COM1 - only to be changed while Enable=false *)
+9415;(*2: Operation is running (while output Error is FALSE) *)
+2398;(*2: Operation is running (while outputs Done and Error are FALSE) *)
+6236;(*2: Operation is stopped with error (while output Busy is FALSE). This output is TRUE for at least one$R$N cycle or until Enable is set to FALSE. The output ErrorID gives more details about the error. *)
+16;(*2: Operation is stopped with error (while output Busy is FALSE). This output is TRUE for atleast one cycle or $R$Nuntil Enable is set to FALSE. The output ErrorID gives more details about the error *)
+1683;(*3: Error codes *)
+696;(*3: Modbus RTU server address - if changed while a modbus job is running, this job will be finished with$R$N previous Serv address$; 0 = Broadcast. valid range is 0..247 *)
+11309;(*3: Operation is stopped with error (while output Busy is FALSE). This output is TRUE for atleast one cycle or $R$Nuntil Enable is set to FALSE. The output ErrorID gives more details about the error *)
+6760;(*3: Operation is stopped with error (while outputs Busy and Done are FALSE). This output is TRUE for at least one cycle or until $R$NExecute is set to FALSE. The output ErrorID gives more details about the error. *)
+574;(*4: Error codes *)
+122;(*4: timeout [ms] for ModRtuMast function block - should be at least 50ms  *)
+4930;(*5:  Active error in ModMast. Operation is running with error . This output is TRUE for at least one $R$Ncycle or until Enable is set to FALSE. The output ModMastErrorIDLast gives more details about the last$R$N error.  *)
+3667;(*5: Active error in ModMast. Operation is running with error . This output is TRUE for at least one $R$Ncycle or until Enable is set to FALSE. The output ModMastErrorIDLast gives more details about the last $R$Nerror.  *)
+895;(*5: Error code of last active error in ModMast  *)
+221;(*5: Pause in seconds before next retry to connect after a timeout was detected. Timeout is detected $R$Nwith ModMastErrorID = 288*)
+1031;(*6: Error code of last active error in ModMast  *)
+182;(*6: First operand address of an operand area in the AC500, from which data should be written to the$R$N modbus server - see general description, about when the value is stored in the function block *)
+683;(*6: First operand address of an operand area in the Modbus device, to which data read by the $R$Nmodbus server should be stored *)
+1339;(*6: Warning code of last active warning  *)
+3241;(*7: Active warning. Operation is running with warning . This output is TRUE for at least one cycle or$R$N until Enable is set to FALSE. The output WarnIDLast gives more details about the warning. *)
+1327;(*7: Active warning. Operation is running with warning . This output is TRUE for at least one cycle or $R$Nuntil Enable is set to FALSE. The output WarnIDLast gives more details about the warning.  *)
+640;(*7: Warning code of last active warning  *)
+3551;(*8: Warning code of last active warning  *)
+9293;(*9: Modbus job finished *)
+46;(*9: Read job busy  *)
+2993;(*9: Write job done  *)
+275;(*last error code of write error *)
+1068;16#%.1x
+1225;16#%0.5x
+272;16#%2x
+1407;16#%sx
+618;16#%ux
+966;16#%x
+1382;16#%xx
+773;Instance of ModRtuRead Function Block
+4329;Instance of ModRtuReadWrite23 Function Block
+3069;Instance of ModRtuToken Function Block
+264;Instance of ModRtuWrite Function Block

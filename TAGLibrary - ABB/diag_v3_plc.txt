@@ -1,0 +1,123 @@
+Id;Default;en;de;fr;es;zh
+Add_570425344;Unknown reason;Unknown reason;Unbekannter Fehler;;;????
+Add_570425345;Shutdown of the PLC;Shutdown of the PLC;Abschaltung der SPS;;;?? PLC
+Add_570425346;Reset after having stopped the IEC application;Reset after having stopped the IEC application;Nach Stoppen der IEC-Anwendung zur¸cksetzen;;;??? IEC ???????
+Add_570425347;Exception occurred;Exception occurred;Ausnahme aufgetreten;;;????
+Add_570425348;IEC application stopped by user;IEC application stopped by user;IEC-Anwendung durch Benutzer gestoppt;;;IEC ?????????
+Add_570425349;IEC application stopped by function block;IEC application stopped by function block;IEC-Anwendung durch Funktionsbaustein gestoppt;;;IEC ??????????
+Add_570425350;IEC application will be deleted after the stop;IEC application will be deleted after the stop;IEC-Anwendung wird nach Stopp gelˆscht;;;IEC ????????????
+Add_570425351;IEC application stopped because of debugging;IEC application stopped because of debugging;IEC-Anwendung wegen Debugging gestoppt;;;IEC ??????????
+Add_570425352;IEC application stopped because the run stop switch is on stop;IEC application stopped because the run stop switch is on stop;IEC-Anwendung wurde gestoppt, da Laufstopp-Schalter auf ÑStoppì gesetzt ist;;;IEC ????????????????????
+Add_587202560;Reset warm;Reset warm;Zur¸cksetzen (warm);;;???
+Add_587202561;Reset cold;Reset cold;Zur¸cksetzen (kalt);;;???
+Add_587202562;Reset origin;Reset origin;Zur¸cksetzen (Original);;;????
+Add_587202563;Reset device;Reset device;Ger‰t zur¸cksetzen;;;????
+Add_637534224;Software watchdog of IEC task expired;Software watchdog of IEC task expired;Software-Watchdog von IEC-Aufgabe abgelaufen;;;IEC ???????????
+Add_637534225;Hardware watchdog expired. Global software error;Hardware watchdog expired. Global software error;Hardware-Watchdog abgelaufen. Globaler Software-Fehler;;;????????. ??????
+Add_637534226;I/O configuration error;I/O configuration error;E/A-Konfigurationsfehler;;;I/O ????
+Add_637534227;Checksum error after program download;Checksum error after program download;Pr¸fsummenfehler nach Programm-Download;;;??????????
+Add_637534228;Fieldbus error;Fieldbus error;Feldbus-Fehler;;;Fieldbus ??
+Add_637534229;I/O update error;I/O update error;E/A-Update-Fehler;;;I/O ????
+Add_637534230;Cycle time exceeded;Cycle time exceeded;Zykluszeit ¸berschritten;;;???????
+Add_637534231;Program too large for online change;Program too large for online change;Programm zu groﬂ f¸r Online-ƒnderung;;;????,??????
+Add_637534232;Unresolved external references;Unresolved external references;Nicht aufgelˆste externe Referenzen;;;????????
+Add_637534233;Download was rejected;Download was rejected;Download abgelehnt;;;?????
+Add_637534234;Boot project not loaded because retain variables could not be relocated;Boot project not loaded because retain variables could not be relocated;Boot-Projekt nicht geladen, da Retain-Variablen nicht geladen werden konnten;;;???????????,???????
+Add_637534235;Boot project not loaded and deleted;Boot project not loaded and deleted;Boot-Projekt nicht geladen und gelˆscht;;;???????????
+Add_637534236;Out of heap memory;Out of heap memory;Kein Heap-Speicher mehr verf¸gbar;;;?????
+Add_637534237;Retain memory corrupt or cannot be mapped;Retain memory corrupt or cannot be mapped;Retain-Speicher besch‰digt oder kann nicht zugeordnet werden;;;???????????
+Add_637534238;Boot project could be loaded but caused an exception;Boot project could be loaded but caused an exception;Boot-Projekt konnte aufgrund einer Ausnahme nicht geladen werden;;;????????,??????
+Add_637534241;Target of the boot project doesn$'t match the current target;Target of the boot project doesn$'t match the current target;Ziel von Boot-Projekt stimmt nicht mit aktuellem Ziel ¸berein;;;???????????????
+Add_637534242;Error at scheduling IEC tasks;Error at scheduling IEC tasks;Fehler bei der Zeitplanung von IEC-Aufgaben;;;?? IEC ?????
+Add_637534243;Checksum of downloaded file does not match;Checksum of downloaded file does not match;Diskrepanz bei Pr¸fsumme der heruntergeladenen Datei;;;???????????
+Add_637534244;Retain identity does not match to current boot application program identity;Retain identity does not match to current boot application program identity;Retain-Identit‰t stimmt nicht mit aktueller Identit‰t des Boot-Anwendungsprogramms ¸berein;;;??????????????????
+Add_637534245;IEC task configuration failed;IEC task configuration failed;IEC-Aufgabenkonfiguration fehlgeschlagen;;;IEC ??????
+Add_637534246;Application is running on wrong target. Can be used for library protection!;Application is running on wrong target. Can be used for library protection!;Anwendung l‰uft ¸ber falsches Ziel. Kann zum Schutz der Bibliothek verwendet werden!;;;?????????????. ??????!
+Add_637534288;Illegal instruction;Illegal instruction;Ung¸ltige Anweisung;;;????
+Add_637534289;Access violation;Access violation;Zugriffsverletzung;;;????
+Add_637534290;Privileged instruction;Privileged instruction;Privilegierte Anweisung;;;????
+Add_637534292;Stack overflow;Stack overflow;Stack-‹berlauf;;;????
+Add_637534293;Invalid disposition;Invalid disposition;Ung¸ltige Lˆschung;;;????
+Add_637534294;Invalid handle;Invalid handle;Ung¸ltiger Handle;;;????
+Add_637534295;Guard page;Guard page;Guard-Seite;;;????
+Add_637534296;Double fault;Double fault;Doppelfehler;;;????
+Add_637534297;Invalid OpCode;Invalid OpCode;Ung¸ltiger OpCode;;;?????
+Add_637534464;Data type misalignment;Data type misalignment;Abweichender Datentyp;;;???????
+Add_637534465;Array bounds exceeded;Array bounds exceeded;Array-Grenzen ¸berschritten;;;??????
+Add_637534466;Division by zero;Division by zero;Division durch Null;;;???
+Add_637534467;Overflow;Overflow;‹berlauf;;;??
+Add_637534468;Non continuable;Non continuable;Nicht fortf¸hrbar;;;????
+Add_637534469;Processor load watchdog of all IEC tasks detected;Processor load watchdog of all IEC tasks detected;Prozessorlast-Watchdog aller IEC-Aufgaben erkannt;;;????? IEC ???????????
+Add_637534544;FPU: Unspecified error;FPU: Unspecified error;FPU: Nicht spezifizierter Fehler;;;FPU:????
+Add_637534545;FPU: Denormalized operand;FPU: Denormalized operand;FPU: Denormalisierter Operand;;;FPU:???????
+Add_637534546;FPU: Division by zero;FPU: Division by zero;FPU: Division durch Null;;;FPU:???
+Add_637534547;FPU: Inexact result;FPU: Inexact result;FPU: Ungenaues Ergebnis;;;FPU:?????
+Add_637534548;FPU: Invalid operation;FPU: Invalid operation;FPU: Ung¸ltige Operation;;;FPU:????
+Add_637534549;FPU: Overflow;FPU: Overflow;FPU: ‹berlauf;;;FPU:??
+Add_637534550;FPU: Stack check;FPU: Stack check;FPU: Stack-Pr¸fung;;;FPU:????
+Add_637534551;FPU: Underflow;FPU: Underflow;FPU: Unterlauf;;;FPU:??
+Add_637534720;Hardware breakpoint;Hardware breakpoint;Hardware-Breakpoint;;;????
+Add_637538320;Omitted cycle watchdog;Omitted cycle watchdog;Zyklus-Watchdog ausgelassen;;;????????
+Err_10;Medium has almost used its complete spare capacity or is already dead, action required;Medium has almost used its complete spare capacity or is already dead, action required;Fast die gesamte freie Kapazit‰t des Mediums ist belegt oder es ist bereits deaktiviert, Maﬂnahme erforderlich;;;????????????????????,??????
+Err_11;Type scaling on PLC startup failed;Type scaling on PLC startup failed;Typskalierung bei SPS-Start fehlgeschlagen;;;PLC ??????????
+Err_12;Flash is temporary protected (read only);Flash is temporary protected (read only);Flash-Speicher ist tempor‰r gesch¸tzt (schreibgesch¸tzt);;;????????(??)
+Err_17;Error setting parameters;Error setting parameters;Fehlereinstellungsparameter;;;???????
+Err_18;At least one not found;At least one not found;Mindestens eine/r/s nicht gefunden;;;????????
+Err_19;Unable to read at least one value;Unable to read at least one value;Lesen von mindestens einem Fehler fehlgeschlagen;;;?????????
+Err_2;Resource failure;Resource failure;Ressourcenfehler;;;????
+Err_20;Invalid value of $"Error LED$";Invalid value of $"Error LED$";Ung¸ltiger Wert f¸r ÑFehler-LEDì;;;ì?? LEDî????
+Err_21;Invalid value of $"Check battery$";Invalid value of $"Check battery$";Ung¸ltiger Wert f¸r Ñ‹berwachung Batteriestatusì;;;ì????î????
+Err_22;Error at initialization;Error at initialization;Fehler bei der Initialisierung;;;??????
+Err_23;Wrong version of firmware;Wrong version of firmware;Falsche Firmware-Version;;;??????
+Err_24;Invalid value of parameter $"Diagnosis, stop on error class$";Invalid value of parameter $"Diagnosis, stop on error class$";Ung¸ltiger Wert f¸r Parameter ÑDiagnose, Stopp bei Fehlerklasseì;;;??ì??,?????????î????
+Err_25;Invalid value of parameter $"Diagnosis, add Plc name to node name$";Invalid value of parameter $"Diagnosis, add Plc name to node name$";Ung¸ltiger Wert f¸r Parameter ÑDiagnose, SPS-Namen zum Knotennamen hinzuf¸genì;;;??ì??,? PLC ?????????î????
+Err_26;Invalid value of parameter $"Reboot at powerfail$";Invalid value of parameter $"Reboot at powerfail$";Ung¸ltiger Wert f¸r Parameter ÑBei Stromausfall neu startenì;;;??ì?????????î????
+Err_27;Failed to set parameter $"Reboot at powerfail$";Failed to set parameter $"Reboot at powerfail$";Einstellen von Parameter ÑBei Stromausfall neu startenì fehlgeschlagen;;;??????ì?????????î
+Err_28;Value of parameter $"Missed Cycle Task behaviour$" is not in range;Value of parameter $"Missed Cycle Task behaviour$" is not in range;Wert von Parameter ÑVerhalten bei vers‰umter Zyklusaufgabeì liegt auﬂerhalb des zul‰ssigen Bereichs;;;??ì????????î???????
+Err_29;Combination of plugged option boards is invalid;Combination of plugged option boards is invalid;Kombination von eingesteckten Optionskarten ist ung¸ltig;;;??????????
+Err_3;Timeout;Timeout;Timeout;;;??
+Err_30;Value of parameter $"Priority Scheme$" is not in range;Value of parameter $"Priority Scheme$" is not in range;Wert von Parameter ÑPriorit‰tsschemaì liegt auﬂerhalb des zul‰ssigen Bereichs;;;??ì?????î???????
+Err_31;PLC did not go to RUN mode due to an active error, whose severity exceeds value of parameter $'stop on error class$';PLC did not go to RUN mode due to an active error, whose severity exceeds value of parameter $'stop on error class$';SPS ist aufgrund eines aktiven Fehlers, dessen Schweregrad den Wert f¸r Parameter ÑStoppen bei Fehlerklasseì ¸berschreitet, nicht in den RUN-Modus gewechselt;;;??????????ì??????î????????,PLC ????????
+Err_32;PLC went to STOP mode due to occurence of an error, whose severity exceeds value of parameter $'stop on error class$';PLC went to STOP mode due to occurence of an error, whose severity exceeds value of parameter $'stop on error class$';SPS ist aufgrund eines Fehlers, dessen Schweregrad den Wert f¸r Parameter ÑStoppen bei Fehlerklasseì ¸berschreitet, in den STOPP-Modus gewechselt;;;??????????ì??????î??????,PLC ???????
+Err_33;PLC went to RUN mode;PLC went to RUN mode;SPS in RUN-Modus gewechselt;;;PLC ??????
+Err_34;PLC went to STOP mode;PLC went to STOP mode;SPS in STOPP-Modus gewechselt;;;PLC ??????
+Err_35;IEC application has been reset;IEC application has been reset;IEC-Anwendung wurde zur¸ckgesetzt;;;IEC ???????
+Err_36;Online change of IEC application has been performed;Online change of IEC application has been performed;Online-ƒnderung von IEC-Anwendung wurde vorgenommen;;;??? IEC ?????????
+Err_37;Full download of an IEC application has been performed;Full download of an IEC application has been performed;Vollst‰ndiger Download einer IEC-Anwendung wurde ausgef¸hrt;;;??? IEC ?????????
+Err_38;IEC application caused an exception;IEC application caused an exception;IEC-Anwendung hat eine Ausnahme verursacht;;;IEC ????????
+Err_39;PLC did not go to RUN mode since reboot has to be performed first;PLC did not go to RUN mode since reboot has to be performed first;SPS ist nicht in den RUN-Modus gewechselt, da zun‰chst Neustart ausgef¸hrt werden musste;;;PLC ???????,?????????
+Err_40;Value of parameter $"Reboot on E2$" is not in range;Value of parameter $"Reboot on E2$" is not in range;Wert von Parameter ÑNeu starten bei E2ì liegt auﬂerhalb des zul‰ssigen Bereichs;;;??ì? E2 ?????î???????
+Err_41;PLC went to reboot due to occurence of an E2 error;PLC went to reboot due to occurence of an E2 error;SPS ist aufgrund eines E2-Fehlers neu gestartet;;;???? E2 ??,PLC ????
+Err_42;No boot project loaded;No boot project loaded;Kein Boot-Projekt geladen;;;???????
+Err_43;Boot project loaded;Boot project loaded;Boot-Projekt geladen;;;???????
+Err_44;Loading boot project failed due to failing load of retain data;Loading boot project failed due to failing load of retain data;Laden von Boot-Projekt aufgrund von Fehler beim Laden von Retain-Daten fehlgeschlagen;;;??????????,????????
+Err_45;Loading boot project failed due to mismatch of retain data;Loading boot project failed due to mismatch of retain data;Laden von Boot-Projekt aufgrund einer Diskrepanz der Retain-Daten fehlgeschlagen;;;?????????,????????
+Err_46;Loading boot project failed due to insufficient license for application;Loading boot project failed due to insufficient license for application;Laden von Boot-Projekt aufgrund einer unzureichenden Anwendungslizenz fehlgeschlagen;;;???????????,????????
+Err_47;Loading boot project failed due to unspecified reason;Loading boot project failed due to unspecified reason;Laden von Boot-Projekt aus unbekanntem Grund fehlgeschlagen;;;??????,????????
+Err_48;Backup failed;Backup failed;Backup fehlgeschlagen;;;????
+Err_49;Restore failed;Restore failed;Wiederherstellung fehlgeschlagen;;;????
+Err_50;Invalid value of parameter $"Enable diagnosis history$";Invalid value of parameter $"Enable diagnosis history$";Ung¸ltiger Wert f¸r Parameter ÑDiagnosehistorie aktivierenì;;;??ì????????î????
+Err_51;Invalid value of parameter $"Maximum number of entries in diagnosis history$";Invalid value of parameter $"Maximum number of entries in diagnosis history$";Ung¸ltiger Wert f¸r Parameter ÑMaximale Anzahl von Eintr‰gen in Diagnosehistorieì;;;??ì?????????????î????
+Err_52;Invalid value of parameter $"Maximum size of extended diagnosis data in diagnosis history$";Invalid value of parameter $"Maximum size of extended diagnosis data in diagnosis history$";Ung¸ltiger Wert f¸r Parameter ÑMaximale Grˆﬂe von erweiterten Diagnosedaten in Diagnosehistorieì;;;??ì??????????????????î????
+Err_53;System partition free space has fallen below pre-warn threshold -> Please contact your ABB representative to fix this issue;System partition free space has fallen below pre-warn threshold -> Please contact your ABB representative to fix this issue;Freier Speicherplatz der Systempartition ist unter Vorwarngrenze gesunken -> Zur Behebung dieses Problems entsprechenden ABB-Vertreter kontaktieren;;;????????????????? -> ????? ABB ????????
+Err_54;System Partition has run out of space -> Please contact your ABB representative to fix this issue and replace the CPU as soon as possible;System Partition has run out of space -> Please contact your ABB representative to fix this issue and replace the CPU as soon as possible;Systempartition hat keinen Speicherplatz mehr -> Zur Behebung dieses Problems entsprechenden ABB-Vertreter kontaktieren und schnellstmˆglich CPU austauschen;;;????????? -> ????? ABB ????????,?????? CPU
+Err_55;IEC project prevented from going to RUN mode, see PLC log for details;IEC project prevented from going to RUN mode, see PLC log for details;;;;
+Err_8;Empty or missing;Empty or missing;Leer oder fehlt;;;????
+Err_9;Medium has used 80% of its spare capacity;Medium has used 80% of its spare capacity;80 % der freien Kapazit‰t von Medium belegt;;;??????????? 80%
+Hwd_0;CPU;CPU;CPU;;;CPU
+Sub1_0;CPU;CPU;CPU;;;CPU
+Sub1_14;I/O bus;I/O bus;E/A-Bus;;;I/O ??
+Sub1_19;Flashdisk;Flashdisk;Flashdisk;;;??
+Sub1_21;Display;Display;Anzeige;;;??
+Sub1_22;Battery;Battery;Batterie;;;??
+Sub2_0;Device;Device;Ger‰t;;;??
+Sub2_2;Parameter;Parameter;Parameter;;;??
+Sub2_5;Index;Index;Index;;;??
+Sub2_6;Application;Application;Anwendung;;;????
+Sub2_7;Bootproject;Bootproject;;;;
+Sub2_8;Component;Component;;;;
+Sub4_1;too big;too big;zu groﬂ;;;??
+Sub4_2;too small;too small;zu klein;;;??
+Sub4_3;unequal;unequal;ungleich;;;???
+Sub4_4;equal;equal;gleich;;;??
+;;;;;;
