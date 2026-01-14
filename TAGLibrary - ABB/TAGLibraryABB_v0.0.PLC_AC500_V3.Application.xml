@@ -40,7 +40,7 @@
     <TypeArray name="T_ARRAY__0__7__OF_BYTE" size="8" nativesize="8" typeclass="Array" iecname="ARRAY [0..7] OF BYTE" basetype="T_BYTE">
       <ArrayDim minrange="0" maxrange="7" />
     </TypeArray>
-    <TypeUserDef name="T_UDT_MOTOR_AUX_STS" size="20" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_STS">
+    <TypeUserDef name="T_UDT_MOTOR_AUX_STS" size="21" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_STS">
       <UserDefElement iecname="on" type="T_BIT_X_0" byteoffset="0" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="auto" type="T_BIT_X_1" byteoffset="1" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="manual" type="T_BIT_X_2" byteoffset="2" vartype="VAR" access="ReadWrite" />
@@ -60,9 +60,10 @@
       <UserDefElement iecname="referencyFixed" type="T_BIT_X_0" byteoffset="16" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="availeableAuto" type="T_BIT_X_1" byteoffset="17" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="startedAuto" type="T_BIT_X_2" byteoffset="18" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="z_reserve" type="T_BYTE" byteoffset="19" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="disabledFieldbusCom" type="T_BIT_X_3" byteoffset="19" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="z_reserve" type="T_BYTE" byteoffset="20" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeUserDef name="T_UDT_MOTOR_AUX_ALM" size="13" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_ALM">
+    <TypeUserDef name="T_UDT_MOTOR_AUX_ALM" size="14" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_ALM">
       <UserDefElement iecname="currentMeasurement" type="T_BIT_X_0" byteoffset="0" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="currentMeasurementOverflow" type="T_BIT_X_1" byteoffset="1" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="currentMeasurementUnderflow" type="T_BIT_X_2" byteoffset="2" vartype="VAR" access="ReadWrite" />
@@ -74,7 +75,8 @@
       <UserDefElement iecname="autoResetMaxAttempt" type="T_BIT_X_0" byteoffset="8" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="excededMaxRuntime" type="T_BIT_X_1" byteoffset="9" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="fieldbusComm" type="T_BIT_X_2" byteoffset="10" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="z_reserve" type="T_ARRAY__0__1__OF_BYTE" byteoffset="11" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="disabledFieldbusCom" type="T_BIT_X_3" byteoffset="11" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="z_reserve" type="T_ARRAY__0__1__OF_BYTE" byteoffset="12" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
     <TypeUserDef name="T_UDT_MOTOR_AUX_CFG" size="64" nativesize="56" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_CFG">
       <UserDefElement iecname="workTimeSource" type="T_BIT_X_0" byteoffset="0" vartype="VAR" access="ReadWrite" />
@@ -102,7 +104,7 @@
       <UserDefElement iecname="frequencyMin" type="T_REAL" byteoffset="48" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="z_reserve3" type="T_ARRAY__0__11__OF_BYTE" byteoffset="52" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeUserDef name="T_UDT_MOTOR_AUX_CMD" size="14" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_CMD">
+    <TypeUserDef name="T_UDT_MOTOR_AUX_CMD" size="12" nativesize="4" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_CMD">
       <UserDefElement iecname="auto" type="T_BIT_X_0" byteoffset="0" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="startManual" type="T_BIT_X_1" byteoffset="1" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="startAuto" type="T_BIT_X_2" byteoffset="2" vartype="VAR" access="ReadWrite" />
@@ -113,9 +115,7 @@
       <UserDefElement iecname="pidAuto" type="T_BIT_X_7" byteoffset="7" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="disableEquipment" type="T_BIT_X_0" byteoffset="8" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="disableFieldbusComm" type="T_BIT_X_1" byteoffset="9" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="hysteresysSource" type="T_BIT_X_2" byteoffset="10" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="almSource" type="T_BIT_X_3" byteoffset="11" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="z_reserve" type="T_ARRAY__0__1__OF_BYTE" byteoffset="12" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="z_reserve" type="T_ARRAY__0__1__OF_BYTE" byteoffset="10" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
     <TypeUserDef name="T_UDT_MOTOR_AUX_EQUIP" size="46" nativesize="46" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_EQUIP">
       <UserDefElement iecname="name" type="T_STRING_11_" byteoffset="0" vartype="VAR" access="ReadWrite" />
@@ -203,22 +203,22 @@
       <UserDefElement iecname="almCurrentLow" type="T_REAL" byteoffset="32" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="z_reserve" type="T_ARRAY__0__19__OF_BYTE" byteoffset="36" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeUserDef name="T_UDT_MOTOR_AUX_DISABLE" size="30" nativesize="8" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_DISABLE">
+    <TypeUserDef name="T_UDT_MOTOR_AUX_DISABLE" size="31" nativesize="8" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR_AUX_DISABLE">
       <UserDefElement iecname="alm" type="T_UDT_MOTOR_AUX_ALM" byteoffset="0" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="flt" type="T_UDT_MOTOR_AUX_FLT" byteoffset="13" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="flt" type="T_UDT_MOTOR_AUX_FLT" byteoffset="14" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
-    <TypeUserDef name="T_UDT_MOTOR" size="408" nativesize="320" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR">
+    <TypeUserDef name="T_UDT_MOTOR" size="413" nativesize="320" typeclass="Userdef" pouclass="STRUCTURE" iecname="UDT_MOTOR">
       <UserDefElement iecname="alm" type="T_UDT_MOTOR_AUX_ALM" byteoffset="0" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="cmd" type="T_UDT_MOTOR_AUX_CMD" byteoffset="13" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="cmd" type="T_UDT_MOTOR_AUX_CMD" byteoffset="14" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="cfg" type="T_UDT_MOTOR_AUX_CFG" byteoffset="28" vartype="VAR" access="ReadWrite" />
       <UserDefElement iecname="disable" type="T_UDT_MOTOR_AUX_DISABLE" byteoffset="92" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="equip" type="T_UDT_MOTOR_AUX_EQUIP" byteoffset="122" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="flt" type="T_UDT_MOTOR_AUX_FLT" byteoffset="168" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="interlock" type="T_UDT_MOTOR_AUX_INTERLOCK" byteoffset="185" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="io" type="T_UDT_MOTOR_AUX_IO" byteoffset="196" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="pv" type="T_UDT_MOTOR_AUX_PV" byteoffset="248" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="sp" type="T_UDT_MOTOR_AUX_SP" byteoffset="332" vartype="VAR" access="ReadWrite" />
-      <UserDefElement iecname="sts" type="T_UDT_MOTOR_AUX_STS" byteoffset="388" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="equip" type="T_UDT_MOTOR_AUX_EQUIP" byteoffset="124" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="flt" type="T_UDT_MOTOR_AUX_FLT" byteoffset="170" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="interlock" type="T_UDT_MOTOR_AUX_INTERLOCK" byteoffset="187" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="io" type="T_UDT_MOTOR_AUX_IO" byteoffset="200" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="pv" type="T_UDT_MOTOR_AUX_PV" byteoffset="252" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sp" type="T_UDT_MOTOR_AUX_SP" byteoffset="336" vartype="VAR" access="ReadWrite" />
+      <UserDefElement iecname="sts" type="T_UDT_MOTOR_AUX_STS" byteoffset="392" vartype="VAR" access="ReadWrite" />
     </TypeUserDef>
   </TypeList>
   <NodeList>
